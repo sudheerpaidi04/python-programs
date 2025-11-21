@@ -1,0 +1,10 @@
+## converting
+code
+weight_kg = float(input("Enter weight in kilograms: "))
+pounds_per_kg = 2.2
+weight_pounds = weight_kg * pounds_per_kg
+print(f"{weight_kg} kilograms is equal to {weight_pounds} pounds.")
+
+output
+Enter weight in kilograms: 50
+50.0 kilograms is equal to 110.0 pounds.
